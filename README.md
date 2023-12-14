@@ -49,6 +49,7 @@ Edit the index.html file to have the proper Artist and Track title
 
 In your CLI you run this code
 python -m http.server
+
 <img src="https://i.imgur.com/NJRptgy.png" />
 
 To open the app on localhost:8000 
