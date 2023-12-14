@@ -3,6 +3,36 @@
 
 A basic visual audio player.
 
+## Prerequisites
+
+Before you run the application, you need to have Python installed on your system. This app has been tested with Python 3.8 and above.
+
+## Installing Python
+
+Follow the instructions for your operating system to install Python:
+
+### Windows
+
+1. Download the latest version of Python from the [official website](https://www.python.org/downloads/windows/).
+2. Run the installer and make sure to check the box that says "Add Python to PATH" before installation.
+3. After installation, open Command Prompt and type `python --version` to confirm the installation.
+
+### macOS
+
+1. You can install Python using Homebrew by running `brew install python` in the terminal.
+2. Verify the installation with `python3 --version`.
+
+### Linux
+
+1. Most Linux distributions come with Python pre-installed. You can check the version by running `python3 --version` in the terminal.
+2. If it's not installed, you can usually install it with your package manager, for example `sudo apt-get install python3` on Ubuntu.
+
+## Running the Application
+
+After installing Python, you can start the server with the following command:
+
+python -m http.server
+
 
 SETUP: 
 
