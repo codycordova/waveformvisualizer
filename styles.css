@@ -1,0 +1,50 @@
+body {
+    text-align: center; /* Center align everything */
+}
+
+#waveform-container {
+    width: 80%; /* Adjust width of the waveform container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    border: 10px solid #ccc;
+    box-sizing: border-box;
+}
+
+#waveform {
+    height: 100px; /* Set a fixed height */
+}
+
+#trackInfo {
+    margin-bottom: 20px;
+}
+
+#trackArtist, #trackTitle {
+    display: inline; /* Place artist and title on the same line */
+    margin: 0;
+    padding: 0 10px; /* Add some space between the artist and title */
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+#playButton {
+    display: block; /* Make the button a block element */
+    width: 200px; /* Width of the button */
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, box-shadow 0.2s;
+}
+
+#playButton:hover {
+    background-color: #0056b3;
+}
+
+#playButton:active {
+    background-color: #003580;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
